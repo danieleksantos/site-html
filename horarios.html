@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patas Felizes VetCare - Horários de Atendimento</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        .content {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 50px;
+        }
+        table {
+            text-align: center;
+            box-shadow: -8px 4px 12px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: -8px 4px 12px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: -8px 4px 12px 0px rgba(0,0,0,0.75);
+            border: solid 1px gray;
+        }
+        table tr:hover td {
+            background-color: rgb(223, 198, 214);
+            cursor: pointer;
+        }
+        table thead th{
+            background-color: rgb(5, 108, 108);
+        }
+        table tr{
+            background-color: rgb(215, 235, 235);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="pag-principal.html">Página Inicial</a></li><br>
+                <li><a href="sobre-nos.html">Sobre nós</a></li><br>
+                <li><a href="horarios.html">Horários de atendimento</a></li><br>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img id="logo" src="images/logo.jpg" alt="logo patas felizes vetcare">
+                <h1>Patas Felizes VetCare - HORÁRIOS</h1>
+            </div>
+    
+            <div class="content">
+                <div class="content__text">
+                    <h3>Bem-vindo à Patas Felizes VetCare!</h3>
+                    <h4><i>Cuidando de quem você ama!</i></h4>
+                    <p>
+                        Nós estamos sempre prontos para atender o seu melhor amigo:
+                        <table cellpadding="5">
+                            <thead>
+                                <tr>
+                                    <th>Serviços</th>
+                                    <th>Horários (seg - sab)</th>
+                                    <th>Horários (domingo e feriados)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Banho e Tosa</td>
+                                    <td>Das 9h ás 16h</td>
+                                    <td> - </td>
+                                </tr>
+                                <tr>
+                                    <td>Consultas</td>
+                                    <td>Das 8h ás 18h</td>
+                                    <td> - </td>
+                                </tr>
+                                <tr>   
+                                    <td>Emergências</td>
+                                    <td>24h</td>
+                                    <td>24h</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                    </p>
+                </div>
+                <img class="content__img" src="images/hours.jpg" alt="imagem de um escritório dando destaque ao relógio de parede, no relógio contem imagens de animais e uma pata ao centro">
+            </div>
+    
+            <div class="footer">
+                <p>
+                    📞 (11) 98765-4321 <br>
+                    📧 contato@patasfelizesvetcare.com<br>
+                    📍 Rua dos Amigos dos Animais, 123 - Bairro Feliz, São Paulo, SP     
+                </p>  
+            </div>
+        </div>
+    </div>
+</body>
+</html>
